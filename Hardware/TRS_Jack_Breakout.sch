@@ -12271,28 +12271,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-9" y1="0.03" x2="-8.1" y2="0.03" width="0.127" layer="51"/>
 <text x="2.54" y="0" size="1.778" layer="25" font="vector">&gt;NAME</text>
 <text x="2.54" y="-2.54" size="1.778" layer="27" font="vector">&gt;VALUE</text>
-<hole x="7.4" y="3.95" drill="2.1"/>
-<hole x="7.4" y="-6.55" drill="2.1"/>
+<hole x="7.4" y="4.2" drill="2.1"/>
+<hole x="7.4" y="-6.8" drill="2.1"/>
 <wire x1="-6" y1="8.75" x2="0" y2="8.75" width="0.127" layer="51"/>
 <wire x1="-6" y1="-8.75" x2="0" y2="-8.75" width="0.127" layer="51"/>
 <wire x1="-6" y1="8.75" x2="-6" y2="-8.75" width="0.127" layer="51"/>
 <wire x1="0" y1="8.75" x2="0" y2="-8.75" width="0.127" layer="51"/>
-</package>
-<package name="1X06">
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="6" x="12.7" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
-<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
-<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
 <package name="MOLEX-1X6">
 <wire x1="-1.27" y1="3.048" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
@@ -13064,6 +13048,60 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <circle x="0" y="0" radius="0.508" width="0" layer="29"/>
 <circle x="0" y="0" radius="0.9398" width="0" layer="30"/>
 </package>
+<package name="1X06">
+<wire x1="11.43" y1="0.635" x2="12.065" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="12.065" y1="1.27" x2="13.335" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="13.335" y1="1.27" x2="13.97" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="13.97" y1="-0.635" x2="13.335" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="13.335" y1="-1.27" x2="12.065" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="12.065" y1="-1.27" x2="11.43" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="8.255" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="8.255" y1="1.27" x2="8.89" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="-0.635" x2="8.255" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="0.635" x2="9.525" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="9.525" y1="1.27" x2="10.795" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="10.795" y1="1.27" x2="11.43" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="11.43" y1="-0.635" x2="10.795" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="10.795" y1="-1.27" x2="9.525" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="9.525" y1="-1.27" x2="8.89" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="8.255" y1="-1.27" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="13.97" y1="0.635" x2="13.97" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="DTR" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="RXI" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="TXO" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="VCC" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="CTS" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="GND" x="12.7" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
+<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
+<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AUDIO-JACK4-TRS-NORMALED-GND">
@@ -13175,12 +13213,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <devices>
 <device name="SIP" package="1X06">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="1" pad="DTR"/>
+<connect gate="G$1" pin="2" pad="RXI"/>
+<connect gate="G$1" pin="3" pad="TXO"/>
+<connect gate="G$1" pin="4" pad="VCC"/>
+<connect gate="G$1" pin="5" pad="CTS"/>
+<connect gate="G$1" pin="6" pad="GND"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13700,7 +13738,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <sheet>
 <plain>
 <text x="167.64" y="10.16" size="2.54" layer="94">Byron Jacquot</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">V01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">V10</text>
 <text x="144.78" y="114.3" size="1.778" layer="94">TIP</text>
 <text x="144.78" y="111.76" size="1.778" layer="94">TIP-NORMAL</text>
 <text x="144.78" y="109.22" size="1.778" layer="94">RING</text>

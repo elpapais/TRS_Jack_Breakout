@@ -26,7 +26,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
@@ -52,13 +52,13 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -139,20 +139,20 @@
 </layers>
 <board>
 <plain>
-<wire x1="27.94" y1="29.21" x2="26.67" y2="30.48" width="0" layer="20"/>
-<wire x1="26.67" y1="30.48" x2="21.59" y2="30.48" width="0" layer="20"/>
-<wire x1="21.59" y1="30.48" x2="20.32" y2="29.21" width="0" layer="20"/>
-<wire x1="20.32" y1="29.21" x2="20.32" y2="24.13" width="0" layer="20"/>
-<wire x1="20.32" y1="24.13" x2="19.05" y2="22.86" width="0" layer="20"/>
-<wire x1="19.05" y1="22.86" x2="0" y2="22.86" width="0" layer="20"/>
-<wire x1="0" y1="22.86" x2="0" y2="1.27" width="0" layer="20"/>
-<wire x1="0" y1="1.27" x2="1.27" y2="0" width="0" layer="20"/>
-<wire x1="1.27" y1="0" x2="6.35" y2="0" width="0" layer="20"/>
-<wire x1="6.35" y1="0" x2="7.62" y2="1.27" width="0" layer="20"/>
-<wire x1="7.62" y1="1.27" x2="7.62" y2="6.35" width="0" layer="20"/>
-<wire x1="7.62" y1="6.35" x2="8.89" y2="7.62" width="0" layer="20"/>
-<wire x1="8.89" y1="7.62" x2="27.94" y2="7.62" width="0" layer="20"/>
-<wire x1="27.94" y1="7.62" x2="27.94" y2="29.21" width="0" layer="20"/>
+<wire x1="27.94" y1="29.21" x2="26.67" y2="30.48" width="0.2032" layer="20"/>
+<wire x1="26.67" y1="30.48" x2="21.59" y2="30.48" width="0.2032" layer="20"/>
+<wire x1="21.59" y1="30.48" x2="20.32" y2="29.21" width="0.2032" layer="20"/>
+<wire x1="20.32" y1="29.21" x2="20.32" y2="24.13" width="0.2032" layer="20"/>
+<wire x1="20.32" y1="24.13" x2="19.05" y2="22.86" width="0.2032" layer="20"/>
+<wire x1="19.05" y1="22.86" x2="0" y2="22.86" width="0.2032" layer="20"/>
+<wire x1="0" y1="22.86" x2="0" y2="1.27" width="0.2032" layer="20"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="0.2032" layer="20"/>
+<wire x1="1.27" y1="0" x2="6.35" y2="0" width="0.2032" layer="20"/>
+<wire x1="6.35" y1="0" x2="7.62" y2="1.27" width="0.2032" layer="20"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="6.35" width="0.2032" layer="20"/>
+<wire x1="7.62" y1="6.35" x2="8.89" y2="7.62" width="0.2032" layer="20"/>
+<wire x1="8.89" y1="7.62" x2="27.94" y2="7.62" width="0.2032" layer="20"/>
+<wire x1="27.94" y1="7.62" x2="27.94" y2="29.21" width="0.2032" layer="20"/>
 <text x="2.54" y="21.59" size="1.27" layer="21" font="vector" ratio="15" align="center-left">T</text>
 <text x="2.54" y="19.05" size="1.27" layer="21" font="vector" ratio="15" align="center-left">TN</text>
 <text x="2.54" y="16.51" size="1.27" layer="21" font="vector" ratio="15" align="center-left">R</text>
@@ -1269,6 +1269,43 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="8.33" y="4.74"/>
 </polygon>
 </package>
+<package name="OSHW-LOGO-S">
+<polygon width="0.15" layer="21">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Connectors">
@@ -1550,6 +1587,7 @@ design rules under a new name.</description>
 <element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="24.13" y="26.67"/>
 <element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="3.81" y="3.81"/>
 <element name="JP2" library="SparkFun-Connectors" package="1X01NS" value="M01SMDNS" x="26.67" y="15.24"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="10.16" y="15.24" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$1">
